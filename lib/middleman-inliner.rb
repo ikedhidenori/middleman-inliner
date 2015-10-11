@@ -39,5 +39,3 @@ class Inliner < Middleman::Extension
     alias :css_inline_tag :inline_css
   end
 end
-
-Inliner.register(:inliner)
